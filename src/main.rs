@@ -46,5 +46,3 @@ fn main() {
         }
     }
 }
-
-// Code that gets a guess from the user and prints it!
