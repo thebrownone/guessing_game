@@ -1,5 +1,7 @@
-use rand::Rng; //Rng is a trait that defines methods that random number generators implement,
-use std::cmp::Ordering; //Ordering is an enum that can be either Less, Greater, or Equal.
+use rand::Rng; 
+//Rng is a trait that defines methods that random number generators implement,
+use std::cmp::Ordering; 
+//Ordering is an enum that can be either Less, Greater, or Equal.
 use std::io;
 //If a type you want to use isn’t in the prelude, 
 //you have to bring that type into scope explicitly with a use statement. 
@@ -17,7 +19,8 @@ fn main() {
 
         println!("Please input your guess.");
     
-        let mut guess = String::new(); // a mutable variable that is currently bound to a new, empty instance of a String. 
+        let mut guess = String::new(); 
+        // a mutable variable that is currently bound to a new, empty instance of a String. 
     
         io::stdin() //The stdin function returns an instance of std::io::Stdin, which is a type that represents a handle to the standard input for your terminal.
              .read_line(&mut guess) //read_line is to take whatever the user types into 
